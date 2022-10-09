@@ -11,7 +11,7 @@ import net.itinajero.repository.CategoriasRepository;
 import net.itinajero.service.ICategoriasService;
 
 @Service
-//@Primary
+@Primary
 public class CategoriasServiceJpa implements ICategoriasService {
 	
 	@Autowired
