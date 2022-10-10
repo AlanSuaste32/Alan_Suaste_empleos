@@ -84,7 +84,7 @@ public class VacantesController {
 		serviceVacantes.guardar(vacante);
 		attributes.addFlashAttribute("msg", "Registro Guardado");
 		System.out.println("Vacante: " + vacante);
-		return "redirect:/vacantes/index";
+		return "redirect:/vacantes/indexPaginate";
 	}
 	
 	/*@PostMapping("/save")
